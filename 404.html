@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Nothing Here 找不到页面 - [#siteTitle$] </title>
+    <title></title>
     <link rel="icon" type="image/svg+xml" href="https://dist.localwu.top/Icon/ContentMatrix/icon.svg?v=202410210900">
     <link rel="icon" type="image/png" href="https://dist.localwu.top/Icon/ContentMatrix/icon.png?v=202410210900">
     <link rel="stylesheet" href="https://dist.localwu.top/CSS/Font/BasicFonts.css?v=202410211300">
@@ -163,9 +163,9 @@
         }
 
         function replaceSiteTitle() {
-            let currentTitle = document.title;
-            let newTitle = currentTitle.replace("[#siteTitle$]", replaceTitleWithSubdomain() + " - " + decodeBase64("TG9jYWwgV3U="));
-            document.title = newTitle;
+            // let currentTitle = document.title;
+            // let newTitle = currentTitle.replace("[#siteTitle$]", replaceTitleWithSubdomain() + " - " + decodeBase64("TG9jYWwgV3U="));
+            document.title = "404 Nothing Here 找不到页面 - " + replaceTitleWithSubdomain() + " - " + decodeBase64("TG9jYWwgV3U=");
         }
 
         function replaceTitleWithSubdomain() {
