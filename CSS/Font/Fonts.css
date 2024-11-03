@@ -1,12 +1,7 @@
-@import url("Inter.css");
-@import url("IBM_Plex_Mono.css");
-@import url("Noto_Sans_SC.css");
-@import url("Noto_Serif_SC.css");
-@import url("HarmonyOS_Sans.css");
-
-/* @import url("./Font/Inter/Inter.css");
-@import url("./Font/IBM/Plex/Mono/IBM_Plex_Mono.css");
-@import url("./Font/Noto/Sans/Noto_Sans.css");
-@import url("./Font/Noto/Serif/Noto_Serif.css");
-@import url("./Font/Harmony_OS/Sans/HarmonyOS_Sans.css");
-@import url("./Font/JetBrains/Mono/JetBrains_Mono.css"); */
+@import url("./Font/Inter/Sans/Inter_Sans_CDN.css");
+@import url("./Font/IBM/Plex/Mono/IBM_Plex_Mono_CDN.css");
+@import url("./Font/Noto/Sans/Noto_Sans_CDN.css");
+@import url("./Font/Noto/Serif/Noto_Serif_CDN.css");
+@import url("./Font/JetBrains/Mono/JetBrains_Mono.css");
+@import url("./Font/Harmony_OS/Sans/HarmonyOS_Sans_CDN.css");
+@import url("./Font/Mi/Sans/Mi_Sans_CDN.css");
