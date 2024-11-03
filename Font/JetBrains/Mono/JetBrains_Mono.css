@@ -16,6 +16,13 @@
 
   Update: 202411021930
 
+  Font families defined by this CSS:
+    - JetBrains_Mono  static fonts for older web browsers 
+  
+  Usage example:
+    :root { font-family: JetBrains_Mono, sans-serif; }
+  }
+
 */
 
 /* STATIC */
