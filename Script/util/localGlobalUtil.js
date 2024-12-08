@@ -37,8 +37,8 @@ lgu.to = function (href) {
     if (href != false) window.location.href = href;
 }
 
-lgu.title = function (base64Str) {
-    document.title = db64(base64Str);
+lgu.title = function (str) {
+    document.title = str;
 }
 
 lgu.removeLoading = function (baseTime, fadeTime) {
